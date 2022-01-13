@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
+</head>
+<body>
+<body style="background-color: powderblue;">
+<h1 style="text-align : center;">Report Generator</h1>
+<form method="post" action="report">
+<h2 style="color:blue ; text-align : center;">Select the Month:</h2>
+<style>
+.temp123
+{
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+</style>
+<div class ="temp123">
+    <input type="month" name="month" required />
+    
+</div>
+<br>
+<div style="text-align:center">  
+    <input type="Submit"  value="Submit" />  
+</div> 
+<br>
+<div style="text-align:center"> 
+<button onclick="goBack()" >Go Back</button>
+</div> 
+
+
+</form>
+</body>
+</html>
